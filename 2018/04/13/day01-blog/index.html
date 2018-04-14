@@ -73,6 +73,8 @@
 
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="前端小白" type="application/atom+xml" />
 
@@ -88,22 +90,22 @@
 <meta property="og:site_name" content="前端小白">
 <meta property="og:description" content="###一、前言 由于本人也是刚学习前端，因此，想借助本人博客分享一些关于前端的前人的总结以及自己的学习成果，于是，按照网上前人博客搭建了自己的博客。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/git.JPG">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/git配置.JPG">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/ssh.JPG">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/hexo.JPG">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/hexo安装.JPG">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/hexoinit.JPG">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/hexo文件目录.JPG">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/hexo主页.JPG">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/_config.yml文件配置.JPG">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/hexo-d报错.JPG">
-<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/hexo插件.JPG">
-<meta property="og:updated_time" content="2018-04-13T11:32:34.350Z">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/git.JPG">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/git配置.JPG">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/ssh.JPG">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/hexo.JPG">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/hexo安装.JPG">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/hexoinit.JPG">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/hexo文件目录.JPG">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/hexo主页.JPG">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/_config.yml文件配置.JPG">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/hexo-d报错.JPG">
+<meta property="og:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/hexo插件.JPG">
+<meta property="og:updated_time" content="2018-04-14T06:28:51.237Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用hexo搭建基于node环境的个人博客">
 <meta name="twitter:description" content="###一、前言 由于本人也是刚学习前端，因此，想借助本人博客分享一些关于前端的前人的总结以及自己的学习成果，于是，按照网上前人博客搭建了自己的博客。">
-<meta name="twitter:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/D:/MyBlog/JiangSongs.github.io/source/images/git.JPG">
+<meta name="twitter:image" content="http://jiangsongjxy.com/2018/04/13/day01-blog/git.JPG">
 
 
 
@@ -405,31 +407,31 @@
 <p>说明：因为本人使用的是windows系统，因此，下面操作也是基于windows电脑</p>
 <p>1.安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js</a>（安装步骤就不再详述，安装完成，可以在控制台输入node -v命令查看所安装的版本，如果报错或其它情况，需要重新安装）</p>
 <p>2.安装<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a>(安装包下载完成也是傻瓜式安装，直到完成。安装完成之后，可以在桌面右键找到“git bash here”,点击完成后弹出一个类似cmd窗口，则说明git安装成功，同时可以使用git –version命令查看所安装的git版本)</p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\git.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/git.JPG" alt=""></p>
 <p>安装完git接着可以配置一下用户信息以及生成ssh密钥，后面也会用到，前面给做好，后面就比较省事。git用户信息主要就是用户名称和邮件地址，具体配置命令如下图。</p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\git配置.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/git配置.JPG" alt=""></p>
 <p>下面试生成ssh密钥的过程</p>
 <p>1.首先查看本地是否已经有ssh密钥，为.ssh的文件，有则备份删除；</p>
 <p>2.没有则需生成密钥，打开gitbash窗口，输入<code>ssh-keygen -t rsa -C &quot;xxx@xx.com&quot;</code>,如下图所示，则说明生成成功，否则重新检查命令，看是否出错。</p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\ssh.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/ssh.JPG" alt=""></p>
 <p>3.cd ~/.ssh 进入.ssh文件夹，可以看到有两个文件，用记事本或sublime打开id_rsa.pub文件，复制里面内容，然后浏览器打开<a href="https://github.com/" target="_blank" rel="noopener">github</a>,登录自己的账号，没有的话，自行注册一个即可，然后打开Settings菜单选项，点击SSH and GPG keys,接着点击New ssh key, Title随便起个名，比如test等，然后把刚才复制的内容粘贴进Key那个输入框中，最后，点击Add ssh key 按钮完成添加。</p>
 <p>同时可以查看自己的github仓库，如果没有则点击New repository新建一个仓库</p>
 <h3 id="三、安装Hexo"><a href="#三、安装Hexo" class="headerlink" title="三、安装Hexo"></a>三、安装Hexo</h3><p>前面两个程序安装成功的话，我们就可以使用npm命令安装Hexo</p>
 <p>打开cmd控制台，输入<code>npm install -g hexo-cli</code> 命令全局安装hexo，如下。</p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\hexo.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/hexo.JPG" alt=""></p>
 <p>安装完成，可以使用<code>hexo -version</code> 查看是否安装成功</p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\hexo安装.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/hexo安装.JPG" alt=""></p>
 <h3 id="四、使用Hexo建立本地站点"><a href="#四、使用Hexo建立本地站点" class="headerlink" title="四、使用Hexo建立本地站点"></a>四、使用Hexo建立本地站点</h3><p>1.新建一个文件夹，名字随意，主要用来初始化Hexo，然后在控制台使用cd命令到该目录，输入<code>hexo init</code>命令即可完成初始化操作。</p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\hexoinit.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/hexoinit.JPG" alt=""></p>
 <p>如果没有出错，则表示我们的Hexo博客框架安装完成，在本地生成的目录文件如下，其中_config.yml是我们博客站点的配置文件，后面我们也会用到这个文件。</p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\hexo文件目录.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/hexo文件目录.JPG" alt=""></p>
 <p>初始化完成之后，我们可以在命令窗口输入<code>hexo server</code>(或简单的 <code>hexo s</code>),然后我们在浏览器上输入<code>localhost:4000</code>来打开Hexo页面,如果出现打不开的情况比如一直转圈，查看4000这个端口是否被占用，（比如常用的<strong><em>福昕阅读器</em></strong> 等应用就是使用的这个端口），解决方法一是结束占用该端口的进程，二，使用命令 <code>hexo server -p 5000</code> 指定5000端口，通过浏览器访问<code>http://localhost:5000</code>就可以看到hexo默认的页面了。</p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\hexo主页.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/hexo主页.JPG" alt=""></p>
 <p>2.配置<code>_config.yml</code>文件的deploy部分，如下图我的配置，注意：github地址要换成自己的。</p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\_config.yml文件配置.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/_config.yml文件配置.JPG" alt=""></p>
 <p>2.代码上传到github上，使用命令<code>hexo d</code>，如果出现下图错误，需要再安装一个插件,如下。</p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\hexo-d报错.JPG" alt=""></p>
-<p><img src="/2018/04/13/day01-blog/D:/MyBlog\JiangSongs.github.io\source\images\hexo插件.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/hexo-d报错.JPG" alt=""></p>
+<p><img src="/2018/04/13/day01-blog/hexo插件.JPG" alt=""></p>
 
       
     </div>
@@ -450,22 +452,6 @@
       
       
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/13/day02-blog/" rel="prev" title="使用hexo搭建基于node环境的个人博客">
-                使用hexo搭建基于node环境的个人博客 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
       
 
       
@@ -543,7 +529,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
